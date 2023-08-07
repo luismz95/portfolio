@@ -1,9 +1,10 @@
 import React from 'react';
 
-import iss from "../assets/shape.gif"
+import image1 from "../assets/me.png"
+import gif1 from "../assets/shape.gif"
 
 const Banner = () => {
-    return <div className='min-h-[85vh] lg:min-h-[78vh] flex items-center' id='home'>
+    return <div className='min-h-[85vh] lg:min-h-[100vh] flex items-center mt-20' id='home'>
         <dic className="container mx-auto">
 
             <div className='flex flex-col lg:flex-row justify-center gap-y-8 lg:items-center lg:gap-x-12'>
@@ -23,7 +24,7 @@ const Banner = () => {
 
                 </div>
                 <div className=' '>
-                    <img src={iss} width={900} height={700}  />
+                    <img src={gif1} width={900} height={700}  />
                 </div>
             </div>
         </dic>
