@@ -2,13 +2,13 @@ import React from 'react';
 import gif1 from "../assets/shape4.gif"
 
 const Contact = () => {
-    return <div className='min-h-[85vh] lg:min-h-[100vh] flex items-center ' id='contact'>
+    return <div className='min-h-[85vh] lg:min-h-[100vh] flex items-center mb-52 ' id='contact'>
         <dic className="container mx-auto ">
 
             <div className=''>
 
-            <div className=' flex justify-center items-center mb-20'>
-                    <img className='w-[100px] lg:w-[300px]' src={gif1}  />
+                <div className=' flex justify-center items-center mb-20'>
+                    <img className='w-[100px] lg:w-[300px]' src={gif1} />
                 </div>
 
                 <div className='text-white text-center '>
@@ -34,7 +34,7 @@ const Contact = () => {
 
                         <div className='group relative overflow-hidden w-[100px] h-[100px] flex flex-col justify-center items-center border-2 border-white/50 rounded-xl mx-3  '>
 
-                        <div className='group-hover:bg-black/50 w-full h-full absolute z-40 transition-all duration-300 '></div>
+                            <div className='group-hover:bg-black/50 w-full h-full absolute z-40 transition-all duration-300 '></div>
 
                             <a
                                 href="https://github.com/luismz95"
@@ -54,7 +54,7 @@ const Contact = () => {
                         </div>
 
                         <div className='group relative overflow-hidden  w-[100px] h-[100px] flex flex-col justify-center items-center border-2 border-white/50 rounded-xl mx-3'>
-                        <div className='group-hover:bg-sky-500/75 w-full h-full absolute z-40 transition-all duration-300 '></div>
+                            <div className='group-hover:bg-sky-500/75 w-full h-full absolute z-40 transition-all duration-300 '></div>
 
                             <a
                                 href="https://www.linkedin.com/in/luis-a-manzo-655130183/"
@@ -72,7 +72,7 @@ const Contact = () => {
                             </a>
                         </div>
                         <div className='group relative overflow-hidden  w-[100px] h-[100px] flex flex-col justify-center items-center border-2 border-white/50 rounded-xl mx-3'>
-                        <div className='group-hover:bg-cyan-300/50 w-full h-full absolute z-40 transition-all duration-300 '></div>
+                            <div className='group-hover:bg-cyan-300/50 w-full h-full absolute z-40 transition-all duration-300 '></div>
 
                             <a
                                 href="https://twitter.com/luisangelmzo"

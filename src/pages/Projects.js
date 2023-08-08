@@ -7,7 +7,7 @@ const Contact = () => {
 
         
 
-            <div className='mb-6 text-3xl lg:text-5xl font-thin text-blue-300  w-full text-center mt-60'>
+            <div className='mb-6 text-3xl lg:text-5xl font-thin text-blue-300  w-full text-center mt-20'>
                 <p >Porjects</p>
             </div>
 
