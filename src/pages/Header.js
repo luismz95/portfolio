@@ -7,7 +7,7 @@ const Header = () => {
         <div className='container mx-auto'>
             <div className='w-full  h-[76px] max-w-[460px] mx-auto px-5 flex items-center justify-between text-white/50'>
                 
-                <Link to='home' smooth={true} spy={true} activeClass='active' offset={-200} className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center ' >
+                <Link to='home' smooth={true} spy={true} activeClass='active' className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center ' >
                 <p >Home</p>
                 </Link>
                 <Link to='about' smooth={true} spy={true} activeClass='active' className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center ' >

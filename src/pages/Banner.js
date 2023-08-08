@@ -4,10 +4,10 @@ import image1 from "../assets/me.png"
 import gif1 from "../assets/shape.gif"
 
 const Banner = () => {
-    return <div className='min-h-[85vh] lg:min-h-[100vh] flex items-center mt-20' id='home'>
+    return <div className='min-h-[85vh] lg:min-h-[100vh] flex items-center mt-1 lg:bt-20 ' id='home'>
         <dic className="container mx-auto">
 
-            <div className='flex flex-col lg:flex-row justify-center gap-y-8 lg:items-center lg:gap-x-12'>
+            <div className='flex flex-col-reverse lg:flex-row justify-center gap-y-8 lg:items-center lg:gap-x-12 mx-10 lg:mx-2'>
 
                 <div className='text-center lg:text-left lg:ml-9 text-white'>
                     <div className='mb-2 text-3xl lg:text-5xl font-thin'>
@@ -17,14 +17,17 @@ const Banner = () => {
                         <span >I'm Luis Angel</span>
                     </div>
 
-                    <p>
-                        dksa kkd jskjdf kdk k asdjkasjdk dkaks djaksdakdkadjanjancc  njdnasj dnjsdnajsdn n jdsnj asn sjdn aksdnk nskdnak
+                    <p className='my-4'>
+                        Backend and Frontend developer with more than 6 years of experience.
+                    </p>
+                    <p className='mt-4'>
+                        Passionate about learning new technologies, in order to continue growing.
                     </p>
 
 
                 </div>
-                <div className=' '>
-                    <img src={gif1} width={900} height={700}  />
+                <div className=' flex justify-center items-center '>
+                    <img className='w-[300px] lg:w-[600px]' src={gif1}  />
                 </div>
             </div>
         </dic>
