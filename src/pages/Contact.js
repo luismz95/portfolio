@@ -34,19 +34,19 @@ const Contact = () => {
 
                         <div className='group relative overflow-hidden w-[100px] h-[100px] flex flex-col justify-center items-center border-2 border-white/50 rounded-xl mx-3  '>
 
-                            <div className='group-hover:bg-black/50 w-full h-full absolute z-40 transition-all duration-300 '></div>
 
                             <a
                                 href="https://github.com/luismz95"
                                 target="_blank"
                                 rel="noopener noreferrer"
+                                className='group-hover:bg-black/50 w-full h-[100%] absolute z-40 transition-all duration-300 flex flex-col justify-center items-center '
                             >
-                                <span className="inline-block   ">
+                                <span className=" ">
 
                                     <img color='#ffffff' width={30} className="group-hover:scale-125 transition-all duration-500 invert" src='/github.svg' />
                                 </span>
 
-                                <p className={`text-sm opacity-50`}>
+                                <p className={`text-sm opacity-50 my-2`}>
                                     Github
                                 </p>
                             </a>
@@ -54,37 +54,36 @@ const Contact = () => {
                         </div>
 
                         <div className='group relative overflow-hidden  w-[100px] h-[100px] flex flex-col justify-center items-center border-2 border-white/50 rounded-xl mx-3'>
-                            <div className='group-hover:bg-sky-500/75 w-full h-full absolute z-40 transition-all duration-300 '></div>
 
                             <a
                                 href="https://www.linkedin.com/in/luis-a-manzo-655130183/"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                            >
-                                <span className="inline-block   ">
-
+                                className='group-hover:bg-blue-500/50 w-full h-[100%] absolute z-40 transition-all duration-300 flex flex-col justify-center items-center '
+                                >
+                                    <span className=" ">
                                     <img color='#ffffff' width={30} className="group-hover:scale-125 transition-all duration-500 invert" src='/linkedin.svg' />
                                 </span>
 
-                                <p className={`text-sm opacity-50`}>
+                                <p className={`text-sm opacity-50 my-2`}>
                                     Linkedin
                                 </p>
                             </a>
                         </div>
                         <div className='group relative overflow-hidden  w-[100px] h-[100px] flex flex-col justify-center items-center border-2 border-white/50 rounded-xl mx-3'>
-                            <div className='group-hover:bg-cyan-300/50 w-full h-full absolute z-40 transition-all duration-300 '></div>
 
                             <a
                                 href="https://twitter.com/luisangelmzo"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                            >
-                                <span className="inline-block   ">
+                                className='group-hover:bg-cyan-300/50 w-full h-[100%] absolute z-40 transition-all duration-300 flex flex-col justify-center items-center '
+                                >
+                                    <span className=" ">
 
                                     <img color='#ffffff' width={30} className="group-hover:scale-125 transition-all duration-500 invert" src='/twitter.svg' />
                                 </span>
 
-                                <p className={`text-sm opacity-50`}>
+                                <p className={`text-sm opacity-50 my-2`}>
                                     twitter
                                 </p>
                             </a>
