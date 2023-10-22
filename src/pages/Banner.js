@@ -4,7 +4,7 @@ import image1 from "../assets/me.png"
 import gif1 from "../assets/shape.gif"
 
 const Banner = () => {
-    return <div className='min-h-[75vh] lg:min-h-[100vh] flex items-center  ' id='home'>
+    return <div className='min-h-[75vh] lg:min-h-[100vh] flex items-center ' id='home'>
         <dic className="container mx-auto">
 
             <div className='flex flex-col-reverse lg:flex-row justify-center lg:items-center  mx-10 lg:mx-2'>
