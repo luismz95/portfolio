@@ -10,24 +10,19 @@ const Banner = () => {
             <div className='flex flex-col-reverse lg:flex-row justify-center lg:items-center  mx-10 lg:mx-2'>
 
                 <div className='text-center lg:text-left lg:ml-9 text-white'>
-                    <div className='mb-2 text-3xl lg:text-5xl font-thin'>
-                        <h1 >Hello!</h1>
-                    </div>
-                    <div className='mb-8 text-3xl lg:text-7xl font-semibold'>
-                        <span >I'm Luis Angel</span>
-                    </div>
+                    <h2 className="mb-2 text-3xl lg:text-5xl font-thin ">
+                        Hello!
+                    </h2>
+                    <h1 className='mb-8 text-3xl lg:text-7xl font-semibold gradient-text h-[78px]'>
+                        I'm Luis Angel
+                    </h1>
 
-                    <p className='my-4'>
-                        Backend and Frontend developer with more than 6 years of experience.
-                    </p>
-                    <p className='mt-4'>
-                        Passionate about learning new technologies, in order to continue growing.
-                    </p>
-
+                    <p><strong >Backend</strong> and  <strong >Frontend</strong> developer with more than 6 years of experience,</p>
+                    <p>passionate about learning new technologies to continue growing.</p>
 
                 </div>
                 <div className=' flex justify-center items-center '>
-                    <img className='w-[200px] lg:w-[600px]' src={gif1}  />
+                    <img className='w-[200px] lg:w-[600px]' src={gif1} />
                 </div>
             </div>
         </dic>

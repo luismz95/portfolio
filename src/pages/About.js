@@ -23,15 +23,7 @@ const About = () => {
                     I discovered the world of programming since high school, I always wondered how things work, I have asked myself that question since I was a child and with programming I have been able to realize many things, how the future is getting closer to us. as we have imagined and all thanks to technology that does not stop.               
                     </p>
 
-                    <p className='my-4'>
-                    I am a person who always likes to improve himself, I am always willing to learn something new and to understand how things around us work.
-                    </p>
-
-
-                    <p className='my-4'>
-                    I love innovation, technology and making things easier for others and making a better world for everyone.
-                    </p>
-
+       
 
 
                 </div>
