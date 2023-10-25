@@ -43,7 +43,7 @@ const Contact = () => {
 
 
                 <div className='mb-6 text-3xl lg:text-5xl font-thin text-blue-300  w-full text-center mt-20'>
-                    <p >Porjects</p>
+                    <p >Projects</p>
                 </div>
 
                 <div className='flex flex-col lg:flex-row justify-center items-center '>
