@@ -1,5 +1,5 @@
 import React from 'react';
-import image1 from "../assets/me.png"
+import image1 from "../assets/me2.png"
 
 const About = () => {
     return <div className='min-h-[85vh] lg:min-h-[100vh] flex items-center ' id='about'>
@@ -8,7 +8,7 @@ const About = () => {
             <div className='flex flex-col lg:flex-row justify-center gap-y-8 lg:items-center lg:gap-x-12 '>
 
                 <div className='w-full flex justify-center ' >
-                    <img className='w-[200px] lg:w-[1200px] ' src={image1} />
+                    <img className='w-[200px] lg:w-[1000px] ' src={image1} />
                 </div>
 
                 <div className='text-center lg:text-left lg:ml-9 text-white mx-10 lg:mx-2'>
