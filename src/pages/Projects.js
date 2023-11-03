@@ -1,10 +1,13 @@
 import React from 'react';
 import mino from "../assets/projects/mino.png"
+import minomx from "../assets/projects/minomx.png"
+import minoapps from "../assets/projects/minoapps.png"
 import maypa from "../assets/projects/maypa.png"
 import sedena from "../assets/projects/sedena.png"
 import rcc from "../assets/projects/rcc.png"
 import fish from "../assets/projects/happyfish.png"
 import catalogo from "../assets/projects/catalogo.png"
+import astra from "../assets/projects/astra.png"
 
 
 import gif3 from "../assets/shape3.gif"
@@ -52,7 +55,7 @@ const Contact = () => {
                         <div className='group-hover:bg-white/70 w-full h-full absolute z-40 transition-all duration-300'></div>
                         <img className='group-hover:scale-125 transition-all duration-500 w-[300px] h-48 md:w-92 md:h-60 lg:w-[500px] lg:h-72 object-cover'
                             src={mino} width={500} />
-                        <p className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50  text-stone-600 font-bold'>Mino Logistics Web App</p>
+                        <p className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50  text-stone-600 font-bold'>Mino Logistics Web App - 2023</p>
                         <div className='absolute -bottom-full left-12 group-hover:bottom-12 transition-all duration-500 z-50 text-stone-600 font-bold'>
                             <div className="group flex flex-row items-center gap-x-2">
                                 <img
@@ -91,11 +94,73 @@ const Contact = () => {
                         </div>
                     </div>
 
+
+                    <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl mx-4 my-4'>
+                        <div className='group-hover:bg-white/70 w-full h-full absolute z-40 transition-all duration-300'></div>
+                        <img
+                            className='group-hover:scale-125 transition-all duration-500 w-[300px] h-48 md:w-92 md:h-60 lg:w-[500px] lg:h-72 object-cover'
+                            src={minomx}
+                            alt='RCC Construction Inc Web'
+                        />
+                        <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 text-stone-600 font-bold'>
+                            WEB MINO - 2022
+                        </div>
+                        <div className='absolute -bottom-full left-12 group-hover:bottom-12 transition-all duration-500 z-50 text-stone-600 font-bold'>
+                            <div className="group flex flex-row items-center gap-x-3">
+                                <img
+                                    src={"nextjs.svg"}
+                                    alt={"html"}
+                                    className="w-10 h-10 object-contain"
+                                />
+
+
+                                <img
+                                    src={"react.svg"}
+                                    alt={"bs"}
+                                    className="w-10 h-10 object-contain"
+                                />
+                                <img
+                                    src={"tailwind.svg"}
+                                    alt={"css"}
+                                    className="w-10 h-10 object-contain"
+                                />
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div className=' group relative overflow-hidden border-2 border-white/50 rounded-xl mx-4 my-4 '>
+                        <div className='group-hover:bg-white/70 w-full h-full absolute z-40 transition-all duration-300'></div>
+                        <img className='group-hover:scale-125 transition-all duration-500 w-[300px] h-48 md:w-92 md:h-60 lg:w-[500px] lg:h-72 object-cover'
+                            src={minoapps} width={500} height={700} />
+                        <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 text-stone-600 font-bold'>Mino Android/IOS Apps - 2022</div>
+                        <div className='absolute -bottom-full left-12 group-hover:bottom-12 transition-all duration-500 z-50 text-stone-600 font-bold'>
+                            <div className="group flex flex-row items-center gap-x-1">
+                                <img
+                                    src={"react.svg"}
+                                    alt={"html"}
+                                    className="w-10 h-10 object-contain"
+                                />
+                                <img
+                                    src={"mongo.svg"}
+                                    alt={"css"}
+                                    className="w-10 h-10 object-contain"
+                                />
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div className='flex flex-col lg:flex-row justify-center items-center w-full '>
+
+
                     <div className=' group relative overflow-hidden border-2 border-white/50 rounded-xl mx-4 my-4'>
                         <div className='group-hover:bg-white/70 w-full h-full absolute z-40 transition-all duration-300'></div>
                         <img className='group-hover:scale-125 transition-all duration-500 w-[300px] h-48 md:w-92 md:h-60 lg:w-[500px] lg:h-72 object-cover'
                             src={maypa} width={500} />
-                        <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 text-stone-600 font-bold'>MAYPA payment gateway
+                        <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 text-stone-600 font-bold'>MAYPA payment gateway - 2021
                         </div>
                         <div className='absolute -bottom-full left-12 group-hover:bottom-12 transition-all duration-500 z-50 text-stone-600 font-bold'>
                             <div className="group flex flex-row items-center gap-x-2">
@@ -130,12 +195,45 @@ const Contact = () => {
                         </div>
                     </div>
 
+                    <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl mx-4 my-4'>
+                        <div className='group-hover:bg-white/70 w-full h-full absolute z-40 transition-all duration-300'></div>
+                        <img
+                            className='group-hover:scale-125 transition-all duration-500 w-[300px] h-48 md:w-92 md:h-60 lg:w-[500px] lg:h-72 object-cover'
+                            src={rcc}
+                            alt='RCC Construction Inc Web'
+                        />
+                        <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 text-stone-600 font-bold'>
+                            RCC Construction Inc Web - 2021
+                        </div>
+                        <div className='absolute -bottom-full left-12 group-hover:bottom-12 transition-all duration-500 z-50 text-stone-600 font-bold'>
+                            <div className="group flex flex-row items-center gap-x-1">
+                                <img
+                                    src={"html.svg"}
+                                    alt={"html"}
+                                    className="w-10 h-10 object-contain"
+                                />
+                                <img
+                                    src={"css.svg"}
+                                    alt={"css"}
+                                    className="w-10 h-10 object-contain"
+                                />
+
+                                <img
+                                    src={"bootstrap.svg"}
+                                    alt={"bs"}
+                                    className="w-10 h-10 object-contain"
+                                />
+
+                            </div>
+                        </div>
+
+                    </div>
 
                     <div className=' group relative overflow-hidden border-2 border-white/50 rounded-xl mx-4 my-4'>
                         <div className='group-hover:bg-white/70 w-full h-full absolute z-40 transition-all duration-300'></div>
                         <img className='group-hover:scale-125 transition-all duration-500 w-[300px] h-48 md:w-92 md:h-60 lg:w-[500px] lg:h-72 object-cover'
                             src={sedena} width={500} />
-                        <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 text-stone-600 font-bold'>SEDENA App</div>
+                        <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 text-stone-600 font-bold'>SEDENA App - 2021</div>
                         <div className='absolute -bottom-full left-12 group-hover:bottom-12 transition-all duration-500 z-50 text-stone-600 font-bold'>
                             <div className="group flex flex-row items-center gap-x-2">
                                 <img
@@ -177,67 +275,14 @@ const Contact = () => {
                 </div>
 
                 <div className='flex flex-col lg:flex-row justify-center items-center w-full '>
-                    <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl mx-4 my-4'>
-                        <div className='group-hover:bg-white/70 w-full h-full absolute z-40 transition-all duration-300'></div>
-                        <img
-                            className='group-hover:scale-125 transition-all duration-500 w-[300px] h-48 md:w-92 md:h-60 lg:w-[500px] lg:h-72 object-cover'
-                            src={rcc}
-                            alt='RCC Construction Inc Web'
-                        />
-                        <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 text-stone-600 font-bold'>
-                            RCC Construction Inc Web
-                        </div>
-                        <div className='absolute -bottom-full left-12 group-hover:bottom-12 transition-all duration-500 z-50 text-stone-600 font-bold'>
-                            <div className="group flex flex-row items-center gap-x-1">
-                                <img
-                                    src={"html.svg"}
-                                    alt={"html"}
-                                    className="w-10 h-10 object-contain"
-                                />
-                                <img
-                                    src={"css.svg"}
-                                    alt={"css"}
-                                    className="w-10 h-10 object-contain"
-                                />
 
-                                <img
-                                    src={"bootstrap.svg"}
-                                    alt={"bs"}
-                                    className="w-10 h-10 object-contain"
-                                />
-
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div className=' group relative overflow-hidden border-2 border-white/50 rounded-xl mx-4 my-4'>
-                        <div className='group-hover:bg-white/70 w-full h-full absolute z-40 transition-all duration-300'></div>
-                        <img className='group-hover:scale-125 transition-all duration-500 w-[300px] h-48 md:w-92 md:h-60 lg:w-[500px] lg:h-72 object-cover'
-                            src={fish} width={500} />
-                        <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 text-stone-600  font-bold'>Flappy Bird Video Game</div>
-                        <div className='absolute -bottom-full left-12 group-hover:bottom-12 transition-all duration-500 z-50 text-stone-600 font-bold'>
-                            <div className="group flex flex-row items-center gap-x-1">
-
-                                <img
-                                    src={"csharp.svg"}
-                                    alt={"csharp"}
-                                    className="w-10 h-10 object-contain"
-                                />
-                                <img
-                                    src={"mysql.svg"}
-                                    alt={"mysql"}
-                                    className="w-10 h-10 object-contain"
-                                />
-                            </div>
-                        </div>
-                    </div>
 
                     <div className=' group relative overflow-hidden border-2 border-white/50 rounded-xl mx-4 my-4 '>
+
                         <div className='group-hover:bg-white/70 w-full h-full absolute z-40 transition-all duration-300'></div>
                         <img className='group-hover:scale-125 transition-all duration-500 w-[300px] h-48 md:w-92 md:h-60 lg:w-[500px] lg:h-72 object-cover'
                             src={catalogo} width={500} height={700} />
-                        <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 text-stone-600 font-bold'>Catalogue Web App</div>
+                        <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 text-stone-600 font-bold'>Catalogue Web App - 2020</div>
                         <div className='absolute -bottom-full left-12 group-hover:bottom-12 transition-all duration-500 z-50 text-stone-600 font-bold'>
                             <div className="group flex flex-row items-center gap-x-1">
                                 <img
@@ -274,7 +319,48 @@ const Contact = () => {
                         </div>
 
                     </div>
+
+                    <div className=' group relative overflow-hidden border-2 border-white/50 rounded-xl mx-4 my-4'>
+                        <div className='group-hover:bg-white/70 w-full h-full absolute z-40 transition-all duration-300'></div>
+                        <img className='group-hover:scale-125 transition-all duration-500 w-[300px] h-48 md:w-92 md:h-60 lg:w-[500px] lg:h-72 object-cover'
+                            src={fish} width={500} />
+                        <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 text-stone-600  font-bold'>Flappy Bird Video Game - 2019</div>
+                        <div className='absolute -bottom-full left-12 group-hover:bottom-12 transition-all duration-500 z-50 text-stone-600 font-bold'>
+                            <div className="group flex flex-row items-center gap-x-1">
+
+                                <img
+                                    src={"csharp.svg"}
+                                    alt={"csharp"}
+                                    className="w-10 h-10 object-contain"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div className=' group relative overflow-hidden border-2 border-white/50 rounded-xl mx-4 my-4'>
+                        <div className='group-hover:bg-white/70 w-full h-full absolute z-40 transition-all duration-300'></div>
+                        <img className='group-hover:scale-125 transition-all duration-500 w-[300px] h-48 md:w-92 md:h-60 lg:w-[500px] lg:h-72 object-cover'
+                            src={astra} width={500} />
+                        <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 text-stone-600  font-bold'>SmartSale - 2017</div>
+                        <div className='absolute -bottom-full left-12 group-hover:bottom-12 transition-all duration-500 z-50 text-stone-600 font-bold'>
+                            <div className="group flex flex-row items-center gap-x-1">
+
+                                <img
+                                    src={"csharp.svg"}
+                                    alt={"csharp"}
+                                    className="w-10 h-10 object-contain"
+                                />
+                                <img
+                                    src={"mysql.svg"}
+                                    alt={"mysql"}
+                                    className="w-10 h-10 object-contain"
+                                />
+                            </div>
+                        </div>
+                    </div>
+
+
                 </div>
+
 
 
                 {/* <div className=' w-full flex justify-center items-center my-28 '>
