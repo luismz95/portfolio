@@ -7,15 +7,11 @@ const About = () => {
 
             <div className='flex flex-col lg:flex-row justify-center gap-y-8 lg:items-center lg:gap-x-12 '>
 
-                <div className='w-full flex justify-center ' >
-                    <img className='w-[200px] lg:w-[1000px] ' src={image1} />
-                </div>
+              
 
-                <div className='text-center lg:text-left lg:ml-9 text-white mx-10 lg:mx-2'>
-                    <div className='mb-6 text-3xl lg:text-5xl font-thin text-blue-300'>
-                        <h1 >About</h1>
-                    </div>
-                    <div className='mb-8 text-4xl lg:text-5xl font-semibold'>
+                <div className='text-center  text-white'>
+                
+                    <div className='mb-8 text-4xl lg:text-5xl font-semibold mt-24'>
                         <span >Luis Angel Manzo</span>
                     </div>
 
@@ -29,25 +25,7 @@ const About = () => {
 
 
 
-            {/* <h1 class="text-2xl text-center mb-8">Mi Trayectoria Profesional</h1>
-
-            <div class="timeline">
-            <div class="timeline-item">
-                    <p>BAJANET</p>
-                    <p>SEDENA APP</p>
-                    <p>2020</p>
-                </div>
-                <div class="timeline-item">
-                    <p>Maypa</p>
-                    <p>Payment gateway</p>
-                    <p>2021</p>
-                </div>
-                <div class="timeline-item">
-                    <p>Mino Logistics</p>
-                    <p>Web App, Server App, App</p>
-                    <p>2021-2023</p>
-                </div>
-            </div> */}
+        
 
 
         </dic>
